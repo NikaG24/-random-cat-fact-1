@@ -47,6 +47,7 @@ body {
   font-size: 2rem;
   text-align: center;
   color: var(--clr-primary);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .sub-title {
@@ -64,6 +65,7 @@ button {
   font-size: 1rem;
   font-weight: 600;
   background-color: var(--clr-primary);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   color: var(--clr-bg);
   margin-top: 2rem;
 }
