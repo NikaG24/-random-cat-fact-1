@@ -23,8 +23,9 @@ const App = () => {
   };
 
   const fetchCatImage = () => {
-    axios.get(`https://cataas.com/cat?type=sq${new Date().getTime()}`).then(res => {
-      setCatImage(res.config.url);
+    axios.get(`https://api.thecatapi.com/v1/images/search?limit=10
+      ${new Date().getTime()}`).then(res => {
+      setCatImage(res.data[0].url);
     });
   };
 
